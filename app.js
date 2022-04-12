@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const bodyParser = require("body-parser");
 const {MongoClient}= require('mongodb');
-const uri = "mongodb+srv://Nikhil5409:Nikhil1234@cluster0.tj8m7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const uri = "mongodb+srv://Nikhil5409:Nikhil1234@cluster0.tj8m7.mongodb.net/CoviSafe?retryWrites=true&w=majority";
 
 app.use('/', express.static(__dirname + "/public"));
 app.use(bodyParser.urlencoded({
